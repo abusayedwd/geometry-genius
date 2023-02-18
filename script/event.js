@@ -9,11 +9,8 @@ document.getElementById('triangle-btn').addEventListener('click',function(){
       const triangleHight = getInputValue('triangle-hight');
       
       const triangleArea = (0.5 * triangleBase * triangleHight).toFixed(2);
-     
        
-     
-       
-                
+               
    const triangle = document.getElementById('triangle').innerText;
    displayData(triangle,triangleArea)
 
@@ -28,11 +25,13 @@ document.getElementById('recangle-btn').addEventListener('click',function(){
  
       const  rectangleWidth = getInputValue('rectangle-width');
       const recangleLength =getInputValue('rectangle-length') ;
+      
        const recangleArea = (rectangleWidth * recangleLength).toFixed(2);
 //       console.log(triangleArea )
    const recangle = document.getElementById('rectangle').innerText;
 //    console.log(recangle)
    displayData(recangle,recangleArea)
+   
 
    serial +=1;
     
