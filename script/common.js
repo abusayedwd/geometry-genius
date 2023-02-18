@@ -16,20 +16,29 @@ function displayData( name, result){
    
 }
 
-function getInputValue(inputId){
-        
+// function getInputValue(inputId){
+         
+//         const inputField = document.getElementById(inputId)
+//         const inputFieldString = inputField.value ;
+//         const inputValue = parseFloat(inputFieldString);
+//         // inputField.value = '';
+//         return inputValue
+         
+// };
+
+ 
+
+ 
+function getInputValue(inputId){   
         const inputField = document.getElementById(inputId)
         const inputFieldString = inputField.value ;
         const inputValue = parseFloat(inputFieldString);
-        // inputField.value = '';
-        return inputValue
-        
-        // const inputField = document.getElementById(inputId)
-        // const inputFieldString = inputField.value ;
-        // const inputValue = parseFloat(inputFieldString);
-        // // inputField.value = '';
         // return inputValue;
-};
 
+         
+        return inputValue;
+               
+        }
+    
 
 
