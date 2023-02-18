@@ -11,16 +11,15 @@
 </head>
         
 </head>
-<body> 
-        <nav class="flex justify-around items-center mx-auto bg-slate-300">
-              <p class="text-2xl text-orange-400 font-bold">Interactive <br>
-                <span class="text-sm mt-2">Geometry Genius</span></p>
-                <a class="text-2xl text-center font-bold hover:bg-orange-300 bg-sky-400 px-5 py-2 ml-6 rounded-lg" href="blog.html">BLOG</a>
+<body class=" "> 
+        <nav class="flex w-[90%] justify-between items-center mx-auto bg-slate-300">
+              <p class="text-2xl text-orange-400 font-bold ml-12"> Interactive<br> <span class="text-sm mt-2">Geometry Genius</span></p>
+                <a class="text-2xl text-center font-bold hover:bg-orange-300 bg-sky-400 px-5 mr-8 py-2 ml-6 rounded-lg" href="blog.html">BLOG</a>
         </nav>
         <main>
-              <section  class="p-4 md:flex  ">
+              <section  class=" w-[90%] mx-auto md:flex  ">
                 <div class="mt-5 md:w-[70%] sm:w-[100%] grid grid-cols-1 md:grid-cols-3 gap-2">
-                        <div class="card card-compact  w-full bg-base-100 shadow-xl">
+                        <div id="card1" class="card card-compact w-full bg-base-100 shadow-xl">
                                 <figure><img class="p-4" src="images/triangle.png" alt="Shoes" /></figure>
                                 <div class="card-body text-center">
                                         <h1 id="triangle" class="text-xl font-semibold">Triangle</h1>
@@ -36,7 +35,7 @@
                                   </div>
                                 </div>
                         </div>    
-                        <div class="card card-compact w-full bg-base-100 shadow-xl">
+                        <div id="card2" class="card card-compact w-full bg-base-100 shadow-xl">
                                 <figure><img class="p-4" src="images/rectangle.png" alt="Shoes" /></figure>
                                 <div class="card-body text-center">
                                         <h1 id="rectangle" class="text-xl font-semibold">Rectangle</h1>
@@ -52,7 +51,7 @@
                                   </div>
                                 </div>
                         </div>    
-                        <div class="card card-compact w-full bg-base-100 shadow-xl">
+                        <div id="card3" class="card card-compact w-full bg-base-100 shadow-xl">
                                 <figure><img class="p-4" src="images/parallelogram.png" alt="Shoes" /></figure>
                                 <div class="card-body text-center">
                                         <h1 id="parallelogram" class="text-xl font-semibold">Parallelogram</h1>
@@ -68,7 +67,7 @@
                                   </div>
                                 </div>
                         </div>    
-                        <div class="card card-compact w-full bg-base-100 shadow-xl">
+                        <div id="card4" class="card card-compact w-full bg-base-100 shadow-xl">
                                 <figure><img class="p-4" src="images/rhombus.png" alt="Shoes" /></figure>
                                 <div class="card-body text-center">
                                         <h1 id="rhombus" class="text-xl font-semibold">Rhombus</h1>
@@ -85,7 +84,7 @@
                                   </div>
                                 </div>
                         </div>    
-                        <div class="card card-compact w-full bg-base-100 shadow-xl">
+                        <div id="card5" class="card card-compact w-full bg-base-100 shadow-xl">
                                 <figure><img class="p-4" src="images/pentagon.png" alt="Shoes" /></figure>
                                 <div class="card-body text-center">
                                         <h1 id="pentagon" class="text-xl font-semibold">Pentagon</h1>
@@ -101,7 +100,7 @@
                                   </div>
                                 </div>
                         </div>    
-                        <div class="card card-compact w-full bg-base-100 shadow-xl">
+                        <div id="card6" class="card card-compact w-full bg-base-100 shadow-xl">
                                 <figure><img class="p-4" src="images/ellipse.png" alt="Shoes" /></figure>
                                 <div class="card-body text-center">
                                         <h1 id="ellipse" class="text-xl font-semibold">Ellipse</h1>
@@ -135,5 +134,6 @@
 
         <script src="script/event.js"></script>
         <script src="script/common.js"></script>
+        <script src="script/random-color.js"></script>
 </body>
 </html>                   

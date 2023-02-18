@@ -77,6 +77,7 @@ document.getElementById('pentagon-btn').addEventListener('click',function(){
  
  
       const  pentagonInputP = getInputValue('pentagon-p');
+       
       const pentagonInputB = getInputValue('pentagon-b');
       const pentagonArea =(0.5 * pentagonInputP * pentagonInputB).toFixed(2);
         
@@ -92,10 +93,10 @@ document.getElementById('pentagon-btn').addEventListener('click',function(){
 
 document.getElementById('ellipse-btn').addEventListener('click',function(){
  
- 
+        const PI = 3.14;
       const  ellipseInputA = getInputValue('ellipse-a');
       const ellipseInputB = getInputValue('ellipse-b');
-      const  ellipseArea =  (ellipseInputA * ellipseInputB).toFixed(2);
+      const  ellipseArea =  (PI * ellipseInputA * ellipseInputB).toFixed(2);
         
    const ellipse = document.getElementById('ellipse').innerText;
    
