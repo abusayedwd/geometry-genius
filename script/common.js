@@ -5,8 +5,8 @@ function displayData( name, result){
    tr.innerHTML = `
    <td> 1</td>
    <td  class = "p-4">${ name}</td>
-   <td>${result}</td>
-   <button class="bg-sky-500 px-3 ml-4 py-1 mt-3 rounded-lg font-semibold" id="coffee-btn">Delete</button>
+   <td>${result}cm<sup>2</sup></td>
+   <button class="bg-sky-500 px-3 ml-6 py-1 mt-3 rounded-lg font-semibold" id="coffee-btn">Delete</button>
      
     
    
@@ -14,5 +14,13 @@ function displayData( name, result){
    
    container.appendChild(tr)
    
+}
+
+function getInputValue(inputId){
+        const inputField = document.getElementById(inputId)
+        const inputFieldString = inputField.value ;
+        const inputValue = parseFloat(inputFieldString);
+        inputField.value = '';
+        return inputValue;
 }
 
