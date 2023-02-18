@@ -1,5 +1,6 @@
  
 // triangle button event handler set://
+let serial = 1;
 
 document.getElementById('triangle-btn').addEventListener('click',function(){
 
@@ -14,6 +15,8 @@ document.getElementById('triangle-btn').addEventListener('click',function(){
 //       console.log(triangleArea )
    const triangle = document.getElementById('triangle').innerText;
    displayData(triangle,triangleArea)
+
+   serial +=1;
     
 });
 
@@ -29,8 +32,12 @@ document.getElementById('recangle-btn').addEventListener('click',function(){
    const recangle = document.getElementById('rectangle').innerText;
 //    console.log(recangle)
    displayData(recangle,recangleArea)
+
+   serial +=1;
     
 });
+
+ 
 
 //parallelogram event handler set://
 
@@ -45,6 +52,7 @@ document.getElementById('parallelogram-btn').addEventListener('click',function()
    
    displayData(parallelogram, parallelogramArea)
     
+   serial +=1;
 });
 
  //Rhombus event handler button set ...//
@@ -60,6 +68,7 @@ document.getElementById('rhombus-btn').addEventListener('click',function(){
    
    displayData(rhombus, rhombusArea);
     
+   serial +=1;
 }) ;
 
  // pantagon button event handler set...// 
@@ -75,6 +84,7 @@ document.getElementById('pentagon-btn').addEventListener('click',function(){
    
    displayData(pentagon, pentagonArea);
     
+   serial +=1;
 });
 
 
@@ -91,5 +101,6 @@ document.getElementById('ellipse-btn').addEventListener('click',function(){
    
    displayData(ellipse, ellipseArea);
     
+   serial +=1;
 });
 
