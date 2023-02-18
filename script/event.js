@@ -18,19 +18,19 @@ document.getElementById('triangle-btn').addEventListener('click',function(){
     
 }); 
 
-//rectangle set event button://
+//rectangle set event handler button://
 
 document.getElementById('recangle-btn').addEventListener('click',function(){
 
  
-      const  rectangleWidth = getInputValue('rectangle-width');
-      const recangleLength =getInputValue('rectangle-length') ;
+       const  rectangleWidth = getInputValue('rectangle-width');
+       const recangleLength =getInputValue('rectangle-length') ;
       
        const recangleArea = (rectangleWidth * recangleLength).toFixed(2);
-//       console.log(triangleArea )
-   const recangle = document.getElementById('rectangle').innerText;
-//    console.log(recangle)
-   displayData(recangle,recangleArea)
+ 
+       const recangle = document.getElementById('rectangle').innerText;
+ 
+    displayData(recangle,recangleArea)
    
 
    serial +=1;
