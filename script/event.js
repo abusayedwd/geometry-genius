@@ -6,8 +6,11 @@ document.getElementById('triangle-btn').addEventListener('click',function(){
 
       const triangleBase = getInputValue('triangle-base');
       const triangleHight = getInputValue('triangle-hight');
-       
+      
+      
       const triangleArea = (0.5 * triangleBase * triangleHight).toFixed(2);
+       
+//       const triangleArea = (0.5 * triangleBase * triangleHight).toFixed(2);
 //       console.log(triangleArea )
    const triangle = document.getElementById('triangle').innerText;
    displayData(triangle,triangleArea)
